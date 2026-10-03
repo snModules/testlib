@@ -4,5 +4,10 @@ return {
     description = "A Sonata module made to test the package manager.",
     entrypoint = "init.luau",
     authors = {"loopy5418"},
-    dependencies = {},
+    dependencies = {
+        {
+            name = "othertestlib",
+            url = "https://github.com/snModules/othertestlib"
+        }
+    },
 }
